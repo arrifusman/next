@@ -16,7 +16,11 @@ const index = () => {
         <header className="h-24 flex items-center z-30 w-full">
           <div className="container mx-auto px-6 flex items-center justify-between w-full">
             <div className="text-gray-800 dark:text-white font-black text-3xl md:flex items-center hidden">
-              <Link href="mailto:samuarrif@gmail.com" target="_blank" rel="noreferrer noopener"> 
+              <Link
+                href="mailto:samuarrif@gmail.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <svg
                   width="25"
                   height="25"
@@ -120,7 +124,8 @@ const index = () => {
                 <div className="flex gap-4">
                   <Link
                     href="mailto:samuarrif@gmail.com"
-                    target="_blank" rel="noreferrer noopener"
+                    target="_blank"
+                    rel="noreferrer noopener"
                     className="flex gap-2 hover:text-sky-500"
                   >
                     <svg
@@ -150,7 +155,8 @@ const index = () => {
                   </Link>
                   <Link
                     href="https://wa.me/6285159606776?text=Hello+Samsul+Muarrif"
-                    target="_blank" rel="noreferrer noopener"
+                    target="_blank"
+                    rel="noreferrer noopener"
                     className="flex gap-2 hover:text-sky-500"
                   >
                     <svg className="w-5" viewBox="0 0 512 512">
@@ -180,7 +186,10 @@ const index = () => {
             <h3>Languages</h3>
             <p className="text-sm md:text-base">
               HTML, CSS{" "}
-              <Link className="hover:text-sky-400" href="https://tailwindcss.com/">
+              <Link
+                className="hover:text-sky-400"
+                href="https://tailwindcss.com/"
+              >
                 (Tailwindcss)
               </Link>
               , Javascript (
@@ -301,7 +310,8 @@ const index = () => {
                     <Link
                       className="text-sm font-light hover:text-sky-500"
                       href="https://ejurnalunsam.id/index.php/jempa/index"
-                      target="_blank" rel="noreferrer noopener"
+                      target="_blank"
+                      rel="noreferrer noopener"
                     >
                       ejurnalunsam.id/index.php/jempa/index
                     </Link>
@@ -328,7 +338,8 @@ const index = () => {
                     <Link
                       className="text-sm font-light hover:text-sky-500"
                       href="https://ridsblades.com/"
-                      target="_blank" rel="noreferrer noopener"
+                      target="_blank"
+                      rel="noreferrer noopener"
                     >
                       ridsblades.com
                     </Link>
@@ -346,7 +357,8 @@ const index = () => {
                     <Link
                       className="text-sm font-light hover:text-sky-500"
                       href="https://samsulmuarrif.me/"
-                      target="_blank" rel="noreferrer noopener"
+                      target="_blank"
+                      rel="noreferrer noopener"
                     >
                       samsulmuarrif.me
                     </Link>
@@ -369,7 +381,8 @@ const index = () => {
                   <Link
                     className="text-sm font-light hover:text-sky-500"
                     href="https://octopoin.com/"
-                    target="_blank" rel="noreferrer noopener"
+                    target="_blank"
+                    rel="noreferrer noopener"
                   >
                     octopoin.com
                   </Link>
@@ -394,7 +407,8 @@ const index = () => {
                   <Link
                     className="text-sm font-light hover:text-sky-500"
                     href="https://perahumedia.herokuapp.com/"
-                    target="_blank" rel="noreferrer noopener"
+                    target="_blank"
+                    rel="noreferrer noopener"
                   >
                     perahumedia.herokuapp.com
                   </Link>
